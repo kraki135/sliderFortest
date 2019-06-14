@@ -2,6 +2,7 @@
   <html >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SliderForTest</title>
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <style>
@@ -245,7 +246,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2eadc', end
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 100vw;
+  /*width: 100vw;*/
+  width: 100%;
   height: 100vh;
   margin-left: -50vw;
   margin-top: -50vh;
@@ -282,6 +284,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2eadc', end
 .slide__text a {
   color: inherit;
 }
+/*dopracować*/
+@media (max-width: 500px) {
+  .slide__text {
+    font-size: x-small;
+   
+}
+.slide__heading {
+  font-size: small;
+}
+}
+
+
 
     </style>
    
